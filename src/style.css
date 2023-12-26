@@ -1,0 +1,28 @@
+#drop-area {
+  width: 300px; /* Width of the drop area */
+  height: 200px; /* Height of the drop area */
+  border: 2px dashed #ccc; /* Dashed border */
+  border-radius: 10px; /* Rounded corners */
+  text-align: center; /* Align text to the center */
+  padding: 20px; /* Padding inside the drop area */
+  transition: border-color 0.3s ease; /* Smooth transition for border color */
+}
+
+#drop-area.highlight {
+  border-color: blue; /* Color when highlighted */
+}
+
+.my-form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#fileElem {
+  display: none; /* Hide the actual file input */
+}
+
+label {
+  cursor: pointer; /* Change cursor on hovering over the label */
+}
